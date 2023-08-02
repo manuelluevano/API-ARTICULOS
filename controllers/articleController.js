@@ -242,7 +242,6 @@ const imagen = async (req, res) => {
 };
 
 const buscador = async (req, res) => {
-
   try {
   //Sacar el string de busqueda
   let busqueda = req.params.busqueda;
